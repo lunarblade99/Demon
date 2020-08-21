@@ -1,0 +1,10 @@
+1.Quick Sort and time req. to sort 
+2.Merge Sort and time req. to sort
+3.Knapsack problem using Dynamic programming
+4.Dijkstra algo for shortest path of weighted graph
+5.kruskals algo for minimum cost spanning tree of undirected graph
+6.Tree traversal
+7.BSF method graph traversals for a digraph
+8.travelling sales person problem
+9.Prims algo for minimum cost spanning tree of undirected graph
+10.N-queens problems using Back tracking
