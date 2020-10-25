@@ -1,0 +1,1 @@
+{"group":"local","interactive":false,"local":true,"memoryLimit":1024,"name":"Local: infecto","srcPath":"c:\\Users\\Lunarblade\\Desktop\\demon\\infecto.cpp","tests":[{"id":1600028443487,"input":"2\n2\n2 2\n4\n1 2 2 6","output":"2\n16"}],"timeLimit":3000,"url":"c:\\Users\\Lunarblade\\Desktop\\demon\\infecto.cpp"}

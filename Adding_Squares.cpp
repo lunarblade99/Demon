@@ -30,18 +30,20 @@ ll square(ll n, ll m, ll x[], ll y[])
 	ll flag = 0;
 	for (auto i = d1.begin(); i != d1.end(); i++)
 	{
-		if (d2.find(i->first) != d2.end())
+		// if (d2.find(i->first) != d2.end())
+		// {
+		//     ans += (i->second * d2[i->first]);
+		// }
+		//cout << i->first << " -> " << d2[i->first] << "\n";
+		if (i->first > 0)
 		{
-			//ans += (i->second * d2[i->first]);
-			//cout << i->first << " -> " << d2[i->first] << "\n";
-			if (i->first > 0 && d2[i->first] > 0)
+			if (d2[i->first] > 0)
 			{
 				ans++;
 			}
 		}
 	}
-	//cout << lop << "========== "
-	//	 << "\n";
+	//cout << lop << "========== "<< "\n";
 	//lop++;
 	// for (int i = 0; i < 20; i++)
 	// {
@@ -68,14 +70,14 @@ int main()
 		cin >> y[i];
 	}
 	ll maina = 0;
-	for (ll i = 0; i <= h; i++)
+	for (ll i = 0; i < h * 2 + 1; i++)
 	{
-			y[m] = i;
-			ts[i] = square(n, m + 1, x, y);
-			if (maina < ts[i])
-			{
-				maina = ts[i];
-			}
+		y[m] = i;
+		ts[i] = square(n, m + 1, x, y);
+		if (maina < ts[i])
+		{
+			maina = ts[i];
+		}
 	}
 	// for (ll i = 0; i < m+1; i++)
 	// {

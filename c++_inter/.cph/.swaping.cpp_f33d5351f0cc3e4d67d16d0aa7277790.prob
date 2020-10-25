@@ -1,0 +1,1 @@
+{"group":"local","interactive":false,"local":true,"memoryLimit":1024,"name":"Local: swaping","srcPath":"c:\\Users\\Lunarblade\\Desktop\\demon\\c++_inter\\swaping.cpp","tests":[{"id":1599663259879,"input":"9\n1\n2\n3\n4\n7\n100\n20\n15\n119","output":"0\n0\n2\n2\n3\n30\n112\n5\n4116"}],"timeLimit":3000,"url":"c:\\Users\\Lunarblade\\Desktop\\demon\\c++_inter\\swaping.cpp"}

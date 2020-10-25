@@ -1,17 +1,38 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define ll long long
+#define pb push_back
+#define vi vector<int>
+#define MOD 1000000007
+#define setbits(x) __builtin_popcountll(x)
 
-int main()
-{
+struct Node {
+   int data;
+   struct Node *next;
+};
+struct Node* head = NULL;
 
-   ios_base::sync_with_stdio(false);
-   cin.tie(NULL);
-
-   int a;
-   for (int i = 0; i < 20; i++)
-   {
-      cout << "a = " << sizeof(a)<<"\n";
+void insert(int new_data) {
+   struct Node* new_node = (struct Node*) malloc(sizeof(struct Node));
+   new_node->data = new_data;
+   new_node->next = head;
+   head = new_node;
+}
+void display() {
+   struct Node* ptr;
+   ptr = head;
+   while (ptr != NULL) {
+      cout<< ptr->data <<" ";
+      ptr = ptr->next;
    }
-
+}
+int main() {
+   insert(3);
+   insert(1);
+   insert(7);
+   insert(2);
+   insert(9);
+   cout<<"The linked list is: ";
+   display();
    return 0;
 }

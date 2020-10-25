@@ -1,0 +1,1 @@
+{"group":"local","interactive":false,"local":true,"memoryLimit":1024,"name":"Local: armstrong","srcPath":"c:\\Users\\Lunarblade\\Desktop\\demon\\armstrong.c","tests":[{"id":1599720858523,"input":"153","output":"armstrong  number"},{"id":1599720891922,"input":"5","output":"not armstrong number"}],"timeLimit":3000,"url":"c:\\Users\\Lunarblade\\Desktop\\demon\\armstrong.c"}
